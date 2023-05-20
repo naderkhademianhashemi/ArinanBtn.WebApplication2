@@ -108,6 +108,8 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Pages\BtnNdr.aspx" />
+    <Content Include="Pages\BtnSea.aspx" />
+    <Content Include="Pages\CmbInCard.aspx" />
     <Content Include="Site.Master" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -124,6 +126,20 @@
     </Compile>
     <Compile Include="Pages\BtnNdr.aspx.designer.cs">
       <DependentUpon>BtnNdr.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\BtnSea.aspx.cs">
+      <DependentUpon>BtnSea.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\BtnSea.aspx.designer.cs">
+      <DependentUpon>BtnSea.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\CmbInCard.aspx.cs">
+      <DependentUpon>CmbInCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\CmbInCard.aspx.designer.cs">
+      <DependentUpon>CmbInCard.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
